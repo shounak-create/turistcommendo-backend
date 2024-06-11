@@ -1,4 +1,9 @@
-const express = require('express')
+const express = require('express');
+const configDB = require('./components/database/Database');
+
+
+configDB()
+
 
 require('dotenv').config();
 
